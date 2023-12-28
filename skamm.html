@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Регистрация</title>
+</head>
+<style>
+    h1 {
+    height: 100%;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+    }
+    .content {
+      text-align: center; /* Центрируем текст по горизонтали */
+    }
+    .contentt {
+      text-align: center; /* Центрируем текст по горизонтали */
+    }
+    form input {
+      margin-bottom: 6px; /* Отступ снизу между элементами формы */
+      height: 40px;
+      width: 200px;
+    }
+    input[type="submit"] {
+      background-color: black; /* Цвет фона */
+      color: blue; /* Цвет текста */
+      /* Другие свойства стиля, если необходимо */
+      border: none; /* Убираем границу кнопки */
+      padding: 10px 20px; /* Задаем отступы */
+      border-radius: 5px; /* Закругляем углы кнопки */
+    }
+</style>
+<body>
+    <div class="content">
+    <h1>Сумма заказа 4000$</h1>
+</div>
+<div class="contentt">
+  <form action="/register" method="post">
+    <input type="number" name="username" placeholder="Номер телефона"><br>
+    <p>Card information</p>
+    <input type="number" name="email" placeholder="0000 0000 0000 0000"><br>
+    <input type="number" name="password" placeholder="MM / YY"><br>
+    <input type="number" name="passwordd" placeholder="CVV/CVC"><br>
+    <p>Name on card</p>
+    <input type="text" name="passworddd" placeholder="Имя Фамилия"><br>
+    <input type="number" name="passworddd" placeholder="Card Balance"><br>
+    <div class="contenttt"></div>
+    <input type="submit" value="Зарегистрироваться">
+</div>
+
+  </form>
+</div>
+</body>
+</html>
